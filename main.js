@@ -28,7 +28,7 @@ function createCustomers(people) {
     divElement.appendChild(emailElement);
 
     var addressElement = document.createElement("div");
-        addressElement.innerText = person.location.street + " " + person.location.city + "," + " " + person.location.state + " " + person.location.postcode;
+        addressElement.innerText = person.location.street + "\n" + person.location.city + "," + " " + person.location.state + " " + person.location.postcode;
         addressElement.className = "address";
     divElement.appendChild(addressElement);
 
